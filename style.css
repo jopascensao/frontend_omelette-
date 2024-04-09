@@ -1,0 +1,128 @@
+body {
+    background-color: hsl(30, 54%, 90%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+b { 
+    color: hsl(30, 10%, 34%); 
+    font-weight: 700;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+
+hr {
+    color: hsl(30, 18%, 87%);
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    padding: 5px;
+    padding-left: 15px;
+}
+
+li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 15px;
+    width: 450px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    font-size: 0.7em;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+}
+
+#omelette-img {
+    margin: 0;
+}
+
+#omelette-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#main_text h2{
+    margin: 5px 0;
+    font-size: 2em;
+    color: black;
+}
+
+#preperation {
+    padding: 10px 25px;
+    margin: 0;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 15px;
+}
+
+#preperation li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+#preperation h1 {
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+    font-size: 1.4em;
+}
+
+#preperation b {
+    color: hsl(30, 10%, 34%);
+    font-weight: 600;
+}
+
+#preperation li {
+    font-weight: 400;
+    padding: 5px;
+}
+
+
+#instructions ol{
+    padding-left: 20px;
+}
+
+
+table {
+    padding: 10px 0px;
+    border-collapse: collapse;
+}
+
+tr, td {
+    padding: 10px 20px;
+}
+
+tr.bordered td {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+
+table b {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 475px) {
+    #container {
+      width: 90%;
+    }
+    body {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+  }
